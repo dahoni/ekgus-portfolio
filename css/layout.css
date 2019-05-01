@@ -1,0 +1,77 @@
+@charset "utf-8";
+
+*{margin: 0; padding: 0; box-sizing: border-box;}
+a{text-decoration: none; color: #666;}
+ul,li{list-style: none;}
+img{box-sizing: border-box; vertical-align: top;}
+body{font: normal 15px/1.3em "nanum", sans-serif; color: #fff; background-color: #8c9d92;}
+
+@font-face{
+	font-family:nanum;
+	src:local('nanum'),
+		url('../font/NanumSquare_acR.ttf') format('truetype');
+}
+
+/*wrap*/
+#wrap{width: 100%; height: 6400px; overflow: hidden; position: relative;}
+#top{width:100%; height: 1400px; background: url("../image/top_bg.png") no-repeat center top; position: relative;}
+.main{ margin-left: 50px; float: left; color: #8c9d92; border-color:#8c9d92;}
+
+h2{width: 230px; height: 30px; text-align: center; font-family: "nanum",sans-serif; color: #fff; font-size: 20px; font-weight: bold; line-height: 30px; border-left: 2px solid #fff;  letter-spacing: 0.5em; text-indent: 0.5em;  margin-top: 25px; margin-bottom: 50px;}
+#gnb{width: 1000px; height: 30px; margin: 0 auto; padding-top: 30px;}
+/*#gnb ul{width: 1000px; height: 30px; background-color: rgba(228,233,225,0.5); position: fixed; z-index: 1;}*/
+#gnb ul li{width: 250px; font-size: 30px; line-height: 30px; float: left; text-align: center; }
+#gnb ul li:hover{background-color: #fff; border-radius: 5px 0; padding-top: 5px;}
+#gnb ul li a{display: block; width: 250px; font-size: 15px; color: #8c9d92; letter-spacing: 0.3em; line-height: 30px; transition: all,0.5s;}
+#gnb ul li a:hover{padding-bottom: 5px; border-bottom: 3px solid #8c9d92; }
+
+.top_txt1{ position: absolute; left: 300px; top: 250px;}
+.top_txt2{ position: absolute; left: 300px; top: 350px;}
+
+
+.top a{color: #fff; font-size: 15px; line-height: 30px; font-weight: 100; cursor: pointer; position: fixed; left: 1800px; bottom: 530px; z-index: 1;}
+.top a:hover{color: #c8c8c8;}
+/*content*/
+.content{width: 100%; margin-top: 100px;}
+
+#INTRODUCE_content{width: 100%; margin-left: 50px;}
+#INTRODUCE_content h3{letter-spacing: 0.3em; margin-bottom: 20px; font-weight: normal; font-size: 18px; padding-left: 5px;}
+.myphoto{width: 10%; float: left; margin-bottom: 20px;}
+.myphoto img{width:100%;}
+.photo_right{width: 200px; margin-left: 20px; float: left;}
+.photo_right p{line-height: 45px; font-weight:500; transition: all,0.3s; text-indent: 1em; cursor: pointer;}
+.photo_right p:hover{color: #c8c8c8;}
+.INTRODUCE_right{width: 200px; margin-left: 100px; float: left;}
+.INTRODUCE_right p{line-height: 45px; padding-left: 5px; transition: all,0.3s; cursor: pointer;}
+.INTRODUCE_right p:hover{background-color: antiquewhite; color: #666;}
+
+.INTRODUCE_left{width: 100%; padding-top: 30px; clear: both;}
+.INTRODUCE_left p{width: 150px; float: left;}
+.INTRODUCE_left>div{line-height: 50px;}
+.INTRODUCE_left span{float: left; margin-left: 20px;}
+.PHOTOSHOP>div{width: 70%; height: 15px; margin-top: 15px; background-color: antiquewhite; float: left;}
+.ILLUSTRATOR>div{width: 70%; height: 15px; margin-top: 15px; background-color: antiquewhite; float: left;}
+.HTML_CSS>div{width: 68%; height: 15px; margin-top: 15px; background-color: antiquewhite; float: left;}
+.JAVASCRIPT>div{width: 50%; height: 15px; margin-top: 15px; background-color: antiquewhite; float: left;}
+
+
+#CAREER_content{width: 100%; height: 180px; clear: both; margin-left: 50px; margin-top: 100px;}
+#CAREER_content div{width: 200px; float: left; margin-right: 50px;}
+#CAREER_content div:last-child{margin-right:0;}
+#CAREER_content p{margin-bottom: 10px;}
+#CAREER_content h4{margin-bottom: 5px; letter-spacing: 0.3em;}
+.dot{width: 30px; height: 2px; background-color: #fff;}
+
+#PORTFOLIO_content{width: 100%; height: 3700px; clear: both; margin-left: 50px; margin-top: 100px; position: relative;}
+#PORTFOLIO_content p{width: 30%; float: left; position: relative;}
+#PORTFOLIO_content a{width: 100%; height: 100%;}
+#PORTFOLIO_content span{position: absolute; left: 10px; top: 10px; padding: 8px; background-color: white; border-radius: 20px; color: #666; font-size: 15px; line-height: 15px; display: none;}
+#PORTFOLIO_content img{width: 100%; cursor: pointer;}
+#PORTFOLIO_content img:hover{opacity: 0.8;}
+.pf4{position: absolute; left:-1143px; top: -1352px;}
+.pf5{position: absolute; left:1143px; bottom: 2975px;}
+.pf6{position: absolute; left:573px; bottom: 2403px;}
+
+h1{clear: both; width: 300px; font-size: 50px; position: absolute; left: 45%; bottom: 100px;}
+
+
